@@ -1,1 +1,4 @@
 Neural Networks and Back Propagation - https://medium.com/datathings/neural-networks-and-backpropagation-explained-in-a-simple-way-f540a3611f5e
+
+CNN - The following repository houses many such GIFs which would help you get a better understanding of how Padding and Stride Length work together to achieve results relevant to our needs. -
+https://github.com/vdumoulin/conv_arithmetic
