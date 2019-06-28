@@ -1,0 +1,14 @@
+Neural Networks and Back Propagation - https://medium.com/datathings/neural-networks-and-backpropagation-explained-in-a-simple-way-f540a3611f5e
+
+CNN - https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+
+CNN - The following repository houses many such GIFs which would help you get a better understanding of how Padding and Stride Length work together to achieve results relevant to our needs. -
+https://github.com/vdumoulin/conv_arithmetic
+
+Region Proposal Networks - 
+	https://www.youtube.com/watch?v=1S0w4pnlc5c
+	https://medium.com/@tanaykarmarkar/region-proposal-network-rpn-backbone-of-faster-r-cnn-4a744a38d7f9
+
+YOLO Algorithm explanation - https://towardsdatascience.com/an-introduction-to-implementing-the-yolo-algorithm-for-multi-object-detection-in-images-99cf240539
+
+DIFFERENCES - https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e
