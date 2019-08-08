@@ -87,21 +87,21 @@ image = cv2.cvtColor(image, cv2.COLOR_RGB2RGBA)
 # converting numpy image to pillow image
 pil_image = Image.fromarray(image)
 # creating new pil image for png
-qhuman_mask = Image.new(pil_image.mode, pil_image.size)
+human_mask = Image.new(pil_image.mode, pil_image.size)
 # loading both images
-new_pixels = qhuman_mask.load()
+new_pixels = human_mask.load()
 original_pixels = pil_image.load()
 
 # create the PNG image pixel by pixel
-for i in range(qhuman_mask.size[0]):
-	for j in range(qhuman_mask.size[1]):
+for i in range(human_mask.size[0]):
+	for j in range(human_mask.size[1]):
 		if mask[j][i]:
 			new_pixels[i, j] = original_pixels[i, j]
 		else:
 			new_pixels[i, j] = (0, 0, 0, 0)
 
-qhuman_mask.save("out.png")
-qhuman_mask.close()
+human_mask.save("out.png")
+human_mask.close()
 
 print()
 print(time.time()-start, "seconds taken")
